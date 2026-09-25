@@ -1,39 +1,52 @@
-# Velvet Pour 🍸
+# 🍸 Mojito — Velvet Pour
 
-Velvet Pour is a modern, visually rich cocktail website designed to showcase premium drinks through elegant typography, smooth animations, and a dark luxury aesthetic.  
-The project focuses on storytelling, motion, and UI polish rather than e-commerce functionality.
+A modern and visually immersive cocktail landing page built with **React** and **Vite**.
 
----
+The project combines bold typography, dark textures, tropical imagery, and elegant layouts to create a premium cocktail-bar experience on the web.
 
-✨ Features
+## ✨ Features
 
-- Elegant hero sections with large typographic statements  
-- Smooth scroll-based and entrance animations powered by GSAP  
-- Fully responsive layout for desktop, tablet, and mobile  
-- Cocktail and mocktail showcase sections  
-- Animated transitions and layered visual effects  
-- Clean, modern UI built with utility-first styling  
+- 🎨 Modern dark-themed design
+- 🍸 Cocktail-focused hero section
+- 🌿 Tropical and atmospheric visual elements
+- 📱 Responsive design
+- 🧭 Navigation with smooth section access
+- 🖼️ Dedicated Art section
+- 📖 About Us section
+- 📋 Cocktail menu section
+- 📬 Contact section
+- ⚡ Fast development and production setup with Vite
+- 🧩 Component-based React architecture
 
----
+## 🛠️ Tech Stack
 
-🛠 Tech Stack
+- **React**
+- **JavaScript (JSX)**
+- **Vite**
+- **CSS**
+- **HTML5**
 
-- React – Component-based UI development  
-- GSAP (GreenSock Animation Platform) – Advanced animations and scroll interactions  
-- Tailwind CSS – Utility-first styling for rapid and consistent UI design  
+## 📁 Project Structure
 
-🚀 Getting Started
-
-Follow the steps below to run the project locally.
-
-1. Clone the repository
-git clone https://github.com/your-username/velvet-pour.git
-
-2. Navigate to the project directory
-cd velvet-pour
-
-3. Install dependencies
-npm install
-
-4. Start the development server
-npm run dev
+```text
+MOJITO/
+├── constants/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Art.jsx
+│   │   ├── Cocktails.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Menu.jsx
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
